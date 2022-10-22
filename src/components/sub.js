@@ -35,7 +35,7 @@ const Sub=(props)=>{
                   id={subtask.id}
                   name={subtask.title}
                   value={""}
-                  checked={props.parentCheck?true:isChecked}
+                  checked={props.parentCheck?true:null}
                   onChange={handleOnChange}/>
               {subtask.title}
           <button
